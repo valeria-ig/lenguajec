@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int x = 30;
+	int *puntero = &x;
+	
+	printf("El valor inicial de la x = %d\n", x);
+	
+	printf("El valor almacenado en la variable puntero es %p", puntero);
+	
+	printf("El valor apuntado en la variable puntero es %d", *puntero);
+	
+	return 0;
+}
