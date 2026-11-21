@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void cuadrado(int *numero){
+	
+	*numero = (*numero) * (*numero);
+}
+
+int main(){
+	int n = 4;
+	
+	printf("El valor de n antes es: %d\n", n);
+	
+	cuadrado(&n);
+	
+	printf("El valor de n despues es: %d\n", n);
+	
+	return 0;
+}
