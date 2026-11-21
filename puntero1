@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int a = 25;
+	int *puntero = &a;
+	
+	printf("El valor de la variable a es %d\n", a);
+	printf("El valor de la variable a es %p\n", &a);
+	printf("El valor almacenado en la variable puntero es %p\n", puntero);
+	printf("El valor apuntado en la variable puntero es %d\n", *puntero);
+	
+	return 0;
+}
